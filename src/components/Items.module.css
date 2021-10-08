@@ -1,0 +1,12 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.item img {
+  height: 200px;
+  width: 150px;
+}

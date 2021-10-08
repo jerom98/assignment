@@ -1,0 +1,53 @@
+.container {
+  margin: 15px;
+}
+.sizes {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  flex-wrap: wrap;
+}
+
+.sizes button {
+  background-color: #bcc2c0;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sizes button:hover {
+  background-color: #888484;
+}
+/* 
+  .sizeButton {
+    background-color: #bcc2c0;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sizeButton:hover {
+    background-color: #888484;
+  } */

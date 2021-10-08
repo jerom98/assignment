@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  color: azure;
+}
+.itemContainer {
+  display: flex;
+  margin: 5px;
+  align-items: center;
+}
+
+.itemContainer button {
+  align-self: flex-end;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+.itemContainer img {
+  height: 100px;
+  width: 100px;
+  margin-right: 10px;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #161616;
+  border: 1px solid #000000;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 6px;
+}
+
+.price {
+  color: rgb(226, 157, 9);
+}

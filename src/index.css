@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: #000000;
+  background-color: #ffff;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #292424;
+  border: 1px solid #050505;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 6px;
+}
+
+button:hover,
+button:active {
+  background-color: #030303;
+  border-color: #000000;
+}
+
+.itemsList {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.cart {
+  display: flex;
+  justify-content: flex-end;
+}
